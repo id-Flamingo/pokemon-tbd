@@ -250,6 +250,10 @@ LittlerootTown_EventScript_FatMan::
 	msgbox LittlerootTown_Text_CanUsePCToStoreItems, MSGBOX_NPC
 	end
 
+LittlerootTown_EventScript_Godoy::
+	msgbox LittlerootTown_Text_Godoy, MSGBOX_NPC
+	end
+
 LittlerootTown_EventScript_Boy::
 	msgbox LittlerootTown_Text_BirchSpendsDaysInLab, MSGBOX_NPC
 	end
@@ -961,6 +965,9 @@ LittlerootTown_Text_CanUsePCToStoreItems:
 	.string "If you use a PC, you can store items\n"
 	.string "and POKéMON.\p"
 	.string "The power of science is staggering!$"
+
+LittlerootTown_Text_Godoy:
+	.string "Hello, my name is Godoink.\p"
 
 LittlerootTown_Text_BirchSpendsDaysInLab:
 	.string "PROF. BIRCH spends days in his LAB\n"
